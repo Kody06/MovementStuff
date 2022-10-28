@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dr7i25clmtbgl"]
+
+[ext_resource type="Script" path="res://maps/DevMap.cs" id="1_jhuv0"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_u1dis"]
+
+[node name="Map" type="Node3D"]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, 0)
+script = ExtResource("1_jhuv0")
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+use_collision = true
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="CSGCombiner3D"]
+mesh = SubResource("PlaneMesh_u1dis")
+
+[node name="Players" type="Node3D" parent="."]

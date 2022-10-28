@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfhokodufmfkp"]
+
+[ext_resource type="Script" path="res://network/Server.cs" id="1_62qcu"]
+
+[node name="Server" type="Node"]
+script = ExtResource("1_62qcu")

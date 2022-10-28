@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovementTestServer", "MovementTestServer.csproj", "{66B5F61F-19D6-4A64-BF26-3FD1E86DBD46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B5F61F-19D6-4A64-BF26-3FD1E86DBD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B5F61F-19D6-4A64-BF26-3FD1E86DBD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B5F61F-19D6-4A64-BF26-3FD1E86DBD46}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{66B5F61F-19D6-4A64-BF26-3FD1E86DBD46}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{66B5F61F-19D6-4A64-BF26-3FD1E86DBD46}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{66B5F61F-19D6-4A64-BF26-3FD1E86DBD46}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
